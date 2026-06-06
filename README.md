@@ -153,6 +153,8 @@ inputFormatters: [
   FilteringTextInputFormatter.allow(RegExp(r'[0-9.,]')),  // solo números, punto y coma
 ],
 ```
+<img width="529" height="992" alt="image" src="https://github.com/user-attachments/assets/43d015cd-b83a-46d8-819c-ce61fabc5cb2" />
+
 
 Y antes de guardar, `_formKey.currentState!.validate()` revisa todos los campos
 de un golpe; si algo falla, no guarda nada.
